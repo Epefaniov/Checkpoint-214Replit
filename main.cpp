@@ -1,31 +1,10 @@
-/*  Program File Name: Checkpoint2.14
-    Programmer: Vincent Epefanio
-    Date: Augest 27, 2024
-    Requirements: 
-  Write a program that has the following character variables: first, middle, and last. Store your initials in these variables then display them on the screen.
-
-
-*/
-
 #include <iostream>
+using namespace std;
 
-
-
-int main()
-{ 
-  char firstInitial;
-  char middleInitial;
-  char lastInitial;
-  std::cout << "Please enter the initial of your first name:";
-  std::cin >> firstInitial;
-  std::cout << "Please enter the initial of your middle name:";
-  std::cin >> middleInitial;
-  std::cout << "Please enter the initial of your last name:";
-  std::cin >> lastInitial;
-  std::cout << "Your initials are:" << firstInitial << middleInitial << lastInitial;
-
+int main() {
+  cout << "Hello World!\n";
+  cout << "This is a test\n";
+cout<<"First change for branch1";
 
 
 }
-
-  
